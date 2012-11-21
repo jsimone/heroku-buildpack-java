@@ -58,6 +58,8 @@ fi
 
 # change to cache dir to install maven
 cd $CACHE_DIR
+rm -rf *
+rm -rf .*
 
 # install maven with base repository
 MAVEN_URL="http://s3.amazonaws.com/heroku-jvm-langpack-java/maven.tar.gz"
